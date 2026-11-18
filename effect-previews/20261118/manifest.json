@@ -492,121 +492,121 @@
       "duration_seconds": 5,
       "plan_tier": "basic",
       "source": "production_effect_chain_on_synthetic_sample",
-      "source_kind": "synthetic_plain_card_or_moving_test_pattern",
-      "sample_text": "Summer evenings start here",
+      "source_kind": "synthetic_plain_card",
+      "sample_text": "3",
       "audio": false
     },
     {
       "option_key": "lower_thirds",
       "video": "920-lower_thirds.mp4",
       "poster": "920-lower_thirds.webp",
-      "video_sha256": "f077c23f53c2efcc70d334d030816e206a2728a0487e6adb7eb22cac9eb76b6a",
-      "poster_sha256": "42617b41d045f887a7330ab6a3a1d7896e726418fe5851b7f6d213dd85c668e2",
-      "video_bytes": 12976,
-      "filter": "drawbox=x=iw*0.06:y=ih*0.73:w=iw*0.72:h=ih*0.105:color=black@0.44:t=fill,drawtext=text='Summer evenings start here':x=w*0.09:y=h*0.758:fontsize=38:fontcolor=white",
+      "video_sha256": "68680c3122330a0ec108805c86385e531fc1854c79d41d40140a1acc23bfeeee",
+      "poster_sha256": "7342b8fe1396610df9d24e88fee2ba5e4188179216db2b793df89d165e3fe8b4",
+      "video_bytes": 11901,
+      "filter": "drawbox=x=iw*0.06:y=ih*0.73:w=iw*0.72:h=ih*0.105:color=black@0.44:t=fill,drawtext=text='Summer starts here':x=w*0.09:y=h*0.758:fontsize=38:fontcolor=white",
       "applied_effects": [
         {
           "effect_key": "lower_thirds",
           "source": "effect_key",
-          "filter": "drawbox=x=iw*0.06:y=ih*0.73:w=iw*0.72:h=ih*0.105:color=black@0.44:t=fill,drawtext=text='Summer evenings start here':x=w*0.09:y=h*0.758:fontsize=38:fontcolor=white",
+          "filter": "drawbox=x=iw*0.06:y=ih*0.73:w=iw*0.72:h=ih*0.105:color=black@0.44:t=fill,drawtext=text='Summer starts here':x=w*0.09:y=h*0.758:fontsize=38:fontcolor=white",
           "params": {
             "template": "lower_third_label",
-            "text": "Summer evenings start here"
+            "text": "Summer starts here"
           }
         }
       ],
       "duration_seconds": 5,
       "plan_tier": "basic",
       "source": "production_effect_chain_on_synthetic_sample",
-      "source_kind": "synthetic_plain_card_or_moving_test_pattern",
-      "sample_text": "Summer evenings start here",
+      "source_kind": "synthetic_plain_card",
+      "sample_text": "Summer starts here",
       "audio": false
     },
     {
       "option_key": "callouts",
       "video": "930-callouts.mp4",
       "poster": "930-callouts.webp",
-      "video_sha256": "f0c8a3a8d6c39961f73684405503184bd1aa6f0704f4c24bf19a713cfec31507",
-      "poster_sha256": "a274307786265df1bc07b501ce68c11a7a88f55f233038a248b0c41a956b76cd",
-      "video_bytes": 12256,
-      "filter": "drawbox=x=iw*0.08:y=ih*0.15:w=iw*0.60:h=ih*0.075:color=white@0.86:t=fill,drawtext=text='Summer evenings start here':x=w*0.105:y=h*0.168:fontsize=34:fontcolor=black",
+      "video_sha256": "bde5ece57daa11d167e306ebc76f3134d0aec9eb3adf2a65322ed9b6957182a2",
+      "poster_sha256": "6e220c116696d873c6452248e0794bfb2f97a4933694428e5d05fe03dbae7771",
+      "video_bytes": 11417,
+      "filter": "drawbox=x=iw*0.08:y=ih*0.15:w=iw*0.60:h=ih*0.075:color=white@0.86:t=fill,drawtext=text='Summer starts here':x=w*0.105:y=h*0.168:fontsize=34:fontcolor=black",
       "applied_effects": [
         {
           "effect_key": "callouts",
           "source": "effect_key",
-          "filter": "drawbox=x=iw*0.08:y=ih*0.15:w=iw*0.60:h=ih*0.075:color=white@0.86:t=fill,drawtext=text='Summer evenings start here':x=w*0.105:y=h*0.168:fontsize=34:fontcolor=black",
+          "filter": "drawbox=x=iw*0.08:y=ih*0.15:w=iw*0.60:h=ih*0.075:color=white@0.86:t=fill,drawtext=text='Summer starts here':x=w*0.105:y=h*0.168:fontsize=34:fontcolor=black",
           "params": {
             "template": "callout_tag",
-            "text": "Summer evenings start here"
+            "text": "Summer starts here"
           }
         }
       ],
       "duration_seconds": 5,
       "plan_tier": "basic",
       "source": "production_effect_chain_on_synthetic_sample",
-      "source_kind": "synthetic_plain_card_or_moving_test_pattern",
-      "sample_text": "Summer evenings start here",
+      "source_kind": "synthetic_plain_card",
+      "sample_text": "Summer starts here",
       "audio": false
     },
     {
       "option_key": "social_cta",
       "video": "940-social_cta.mp4",
       "poster": "940-social_cta.webp",
-      "video_sha256": "235715bca1e75aa68d9d6728eeca1bb4e33d5bc64386437135025c7ab9336ab9",
-      "poster_sha256": "21339f09641504a6dc86c76d14e67e4a57cf3bb87e0cd86bb6cbd8b95dd37f30",
-      "video_bytes": 13742,
-      "filter": "drawtext=text='Summer evenings start here':x=(w-text_w)/2:y=h*0.84:fontsize=42:fontcolor=white:box=1:boxcolor=black@0.48:boxborderw=18",
+      "video_sha256": "877db7b164f104ba453e6ad670771715c507689e1fd39967122f1114f99df6a6",
+      "poster_sha256": "b08d525def38a98975388db8f2f27fb5a48f1b7b4fff74ebdc99705ef1f6ba5e",
+      "video_bytes": 12502,
+      "filter": "drawtext=text='Summer starts here':x=(w-text_w)/2:y=h*0.84:fontsize=42:fontcolor=white:box=1:boxcolor=black@0.48:boxborderw=18",
       "applied_effects": [
         {
           "effect_key": "social_cta",
           "source": "effect_key",
-          "filter": "drawtext=text='Summer evenings start here':x=(w-text_w)/2:y=h*0.84:fontsize=42:fontcolor=white:box=1:boxcolor=black@0.48:boxborderw=18",
+          "filter": "drawtext=text='Summer starts here':x=(w-text_w)/2:y=h*0.84:fontsize=42:fontcolor=white:box=1:boxcolor=black@0.48:boxborderw=18",
           "params": {
             "template": "bottom_cta",
-            "text": "Summer evenings start here"
+            "text": "Summer starts here"
           }
         }
       ],
       "duration_seconds": 5,
       "plan_tier": "basic",
       "source": "production_effect_chain_on_synthetic_sample",
-      "source_kind": "synthetic_plain_card_or_moving_test_pattern",
-      "sample_text": "Summer evenings start here",
+      "source_kind": "synthetic_plain_card",
+      "sample_text": "Summer starts here",
       "audio": false
     },
     {
       "option_key": "title_cards",
       "video": "950-title_cards.mp4",
       "poster": "950-title_cards.webp",
-      "video_sha256": "13d6f8b81905694978a6b9839429c4bfd90e1935420a7b872d0cc566fe67044c",
-      "poster_sha256": "52d0644f8cfa180d4c0391138376711b32acb86120dfa6baa82f12e6c95c0a3b",
-      "video_bytes": 14398,
-      "filter": "drawbox=x=0:y=0:w=iw:h=ih:color=black@0.22:t=fill,drawtext=text='Summer evenings start here':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=52:fontcolor=white:box=1:boxcolor=black@0.48:boxborderw=18",
+      "video_sha256": "28961cfc115e3103af6d13295ab5f26788a78334ac86ce857b6c43906a7f2b56",
+      "poster_sha256": "ee13847563532012d059273ceb521b8fdb9f7533768be610e385b60010b45843",
+      "video_bytes": 12986,
+      "filter": "drawbox=x=0:y=0:w=iw:h=ih:color=black@0.22:t=fill,drawtext=text='Summer starts here':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=52:fontcolor=white:box=1:boxcolor=black@0.48:boxborderw=18",
       "applied_effects": [
         {
           "effect_key": "title_cards",
           "source": "effect_key",
-          "filter": "drawbox=x=0:y=0:w=iw:h=ih:color=black@0.22:t=fill,drawtext=text='Summer evenings start here':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=52:fontcolor=white:box=1:boxcolor=black@0.48:boxborderw=18",
+          "filter": "drawbox=x=0:y=0:w=iw:h=ih:color=black@0.22:t=fill,drawtext=text='Summer starts here':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=52:fontcolor=white:box=1:boxcolor=black@0.48:boxborderw=18",
           "params": {
             "template": "center_title_card",
-            "text": "Summer evenings start here"
+            "text": "Summer starts here"
           }
         }
       ],
       "duration_seconds": 5,
       "plan_tier": "basic",
       "source": "production_effect_chain_on_synthetic_sample",
-      "source_kind": "synthetic_plain_card_or_moving_test_pattern",
-      "sample_text": "Summer evenings start here",
+      "source_kind": "synthetic_plain_card",
+      "sample_text": "Summer starts here",
       "audio": false
     },
     {
       "option_key": "motion_blur",
       "video": "960-motion_blur.mp4",
       "poster": "960-motion_blur.webp",
-      "video_sha256": "352c8ae8700a94e5e02f9531dcd656738a28d59a7349d7033cb444f77e965edc",
-      "poster_sha256": "83ca37335d17849803cc726c6bce68b1c7e4fb9697aec9402ac587f155f38ae7",
-      "video_bytes": 1006737,
+      "video_sha256": "c8da1ce6154a567fa0485b327c99ffbfda4ec1bb44123dc9ece3b32a76369eb9",
+      "poster_sha256": "75f9a9592ea6a0b372937c67e707712f6983d8b03ab0d892b3a1238be0e9f7e5",
+      "video_bytes": 17242,
       "filter": "tmix=frames=3:weights='1 2 1'",
       "applied_effects": [
         {
@@ -622,7 +622,7 @@
       "duration_seconds": 5,
       "plan_tier": "cinematic",
       "source": "production_effect_chain_on_synthetic_sample",
-      "source_kind": "synthetic_plain_card_or_moving_test_pattern",
+      "source_kind": "synthetic_moving_square",
       "sample_text": null,
       "audio": false
     }
