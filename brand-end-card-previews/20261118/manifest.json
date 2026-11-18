@@ -1,0 +1,44 @@
+{
+  "kind": "brand_end_card_previews.v1",
+  "rule": "READY brand_end_cards clips on the owner account only (approved 18 Nov 2026); re-encoded, not re-generated",
+  "items": [
+    {
+      "option_key": "vidra_media",
+      "brand_kit_id": "a16228d4-6fea-4211-bf9f-08d3cb8ed36e",
+      "brand_name": "Vidra.media",
+      "media_kind": "video",
+      "source_object": "gs://vidra-generated-videos-dev/brand-end-cards/on-demand/c9f64f90-4ff9-4623-948c-cc9077de99a3/a16228d4-6fea-4211-bf9f-08d3cb8ed36e/20cd0284-7b79-4528-b789-794ee7f7ebf0-clip-25db9332-0fe0-4997-9ee9-90285cee10a1.mp4",
+      "files": [
+        {
+          "file": "010-vidra_media.mp4",
+          "sha256": "6bb03703231579dbb99cbf71255a6dd59a1af97ae4b141548e1285a262518f98",
+          "bytes": 325402
+        },
+        {
+          "file": "010-vidra_media.webp",
+          "sha256": "5faf0c3d448e3120126d78be73244d76d3776dd2fd5c46c8488db97b069bda71",
+          "bytes": 71266
+        }
+      ]
+    },
+    {
+      "option_key": "aurora_motors",
+      "brand_kit_id": "9f3189f2-45ba-48b0-803f-4ea861f12aba",
+      "brand_name": "Aurora Motors",
+      "media_kind": "video",
+      "source_object": "gs://vidra-generated-videos-dev/brand-end-cards/on-demand/c9f64f90-4ff9-4623-948c-cc9077de99a3/9f3189f2-45ba-48b0-803f-4ea861f12aba/9b0bd32e-aace-4ee9-9531-a56aa101f30c-clip-c46ca2bf-743f-46ea-a98e-021c123d497f.mp4",
+      "files": [
+        {
+          "file": "020-aurora_motors.mp4",
+          "sha256": "5568c24c975aaa7ff66c61053cb29b3cbba10d0a8312eeec78624c8620b2e2fb",
+          "bytes": 237327
+        },
+        {
+          "file": "020-aurora_motors.webp",
+          "sha256": "2d8b772a041bacb7f4e712738fe666933ca17dbc68154a6e8e69054cc2464928",
+          "bytes": 61644
+        }
+      ]
+    }
+  ]
+}
