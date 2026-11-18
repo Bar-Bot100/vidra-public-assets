@@ -625,20 +625,244 @@
       "source_kind": "synthetic_moving_square",
       "sample_text": null,
       "audio": false
+    },
+    {
+      "option_key": "camera_shake",
+      "video": "970-camera_shake.mp4",
+      "poster": "970-camera_shake.webp",
+      "video_sha256": "0f061d96812f67656ed3e65347b0764bdd9ebfeb05110985a3133dcca85cd295",
+      "poster_sha256": "8cf472af966441cbf167aba0c33f066eefd3a67c54aa675ac88007098a70712a",
+      "video_bytes": 57623,
+      "duration_seconds": 5,
+      "source": "production_effect_chain_on_synthetic_sample",
+      "source_kind": "synthetic_moving_grid",
+      "audio": false,
+      "plan_tier": "cinematic",
+      "builder": "services/vidra-render/src/motion.ts#buildMotionChain",
+      "filter": "[0:v]scale=520:924:force_original_aspect_ratio=increase,crop=480:854:x=max(0\\,min(in_w-out_w\\,(in_w-out_w)/2+sin(t*18)*12)):y=max(0\\,min(in_h-out_h\\,(in_h-out_h)*0.2000+cos(t*22)*8)),setsar=1,fps=30,format=yuv420p[v]",
+      "applied_effects": [
+        {
+          "scene_number": 1,
+          "kind": "video",
+          "motion_type": "camera_shake",
+          "motion_type_source": "effect_key",
+          "motion_type_known": true,
+          "motion_type_unknown_value": null,
+          "zoom_intensity_received": null,
+          "zoom_intensity_applied": 0.07,
+          "zoom_intensity_source": "aspect_default",
+          "zoom_intensity_clamped": false,
+          "aspect_ratio": "9:16",
+          "aspect_default_applied": 0.07,
+          "focal_point_x": 0.5,
+          "focal_point_y": 0.5,
+          "focal_point_source": "default",
+          "easing": "linear",
+          "easing_source": "default",
+          "motion_preset": null,
+          "motion_preset_resolved": false,
+          "pan_direction": null,
+          "pan_amplitude_clamped": false,
+          "color_grade_preset": null,
+          "grade_filter_applied": false,
+          "grade_filter_chain": null,
+          "zoom_start": 1,
+          "zoom_end": 1,
+          "applied_effect": "camera_shake",
+          "filter_chain": "[0:v]scale=520:924:force_original_aspect_ratio=increase,crop=480:854:x=max(0\\,min(in_w-out_w\\,(in_w-out_w)/2+sin(t*18)*12)):y=max(0\\,min(in_h-out_h\\,(in_h-out_h)*0.2000+cos(t*22)*8)),setsar=1,fps=30,format=yuv420p[v]"
+        }
+      ]
+    },
+    {
+      "option_key": "freeze_frame",
+      "video": "980-freeze_frame.mp4",
+      "poster": "980-freeze_frame.webp",
+      "video_sha256": "873a341d8b28eb3bf1ae09246df66e5d0f4c75daf942edfbea2d28f043757e16",
+      "poster_sha256": "1af169bc3c1906486aac20450e9902bcde3b16af445dbf599d6b16572a07703a",
+      "video_bytes": 13725,
+      "duration_seconds": 5,
+      "source": "production_effect_chain_on_synthetic_sample",
+      "source_kind": "synthetic_moving_grid",
+      "audio": false,
+      "plan_tier": "cinematic",
+      "builder": "services/vidra-render/src/motion.ts#buildMotionChain",
+      "filter": "[0:v]scale=480:854:force_original_aspect_ratio=increase,crop=480:854:x=(in_w-out_w)/2:y=(in_h-out_h)*0.2000,tpad=start_mode=clone:start_duration=0.250,trim=duration=5.000,setpts=PTS-STARTPTS,setsar=1,fps=30,format=yuv420p[v]",
+      "applied_effects": [
+        {
+          "scene_number": 1,
+          "kind": "video",
+          "motion_type": "freeze_frame",
+          "motion_type_source": "effect_key",
+          "motion_type_known": true,
+          "motion_type_unknown_value": null,
+          "zoom_intensity_received": null,
+          "zoom_intensity_applied": 0.07,
+          "zoom_intensity_source": "aspect_default",
+          "zoom_intensity_clamped": false,
+          "aspect_ratio": "9:16",
+          "aspect_default_applied": 0.07,
+          "focal_point_x": 0.5,
+          "focal_point_y": 0.5,
+          "focal_point_source": "default",
+          "easing": "linear",
+          "easing_source": "default",
+          "motion_preset": null,
+          "motion_preset_resolved": false,
+          "pan_direction": null,
+          "pan_amplitude_clamped": false,
+          "color_grade_preset": null,
+          "grade_filter_applied": false,
+          "grade_filter_chain": null,
+          "zoom_start": 1,
+          "zoom_end": 1,
+          "applied_effect": "freeze_frame",
+          "filter_chain": "[0:v]scale=480:854:force_original_aspect_ratio=increase,crop=480:854:x=(in_w-out_w)/2:y=(in_h-out_h)*0.2000,tpad=start_mode=clone:start_duration=0.250,trim=duration=5.000,setpts=PTS-STARTPTS,setsar=1,fps=30,format=yuv420p[v]"
+        }
+      ]
+    },
+    {
+      "option_key": "zoom_blur",
+      "video": "1010-zoom_blur.mp4",
+      "poster": "1010-zoom_blur.webp",
+      "video_sha256": "ec574bb850418bdbb18052a7445cf856afd58996663f6b5b6b1030af6239ed48",
+      "poster_sha256": "18cc3377313392aaf52143d78cd502db4cf28d58779a43242ff5932d7b2773ee",
+      "video_bytes": 36000,
+      "duration_seconds": 5,
+      "source": "production_effect_chain_on_synthetic_sample",
+      "source_kind": "synthetic_moving_grid",
+      "audio": false,
+      "plan_tier": "cinematic",
+      "builder": "services/vidra-render/src/motion.ts#buildMotionChain",
+      "filter": "[0:v]scale=520:924:force_original_aspect_ratio=increase,crop=480:854:x=max(0\\,min(in_w-out_w\\,(in_w-out_w)/2+sin(t*2.1)*10)):y=max(0\\,min(in_h-out_h\\,(in_h-out_h)*0.2000+cos(t*2.1)*6)),gblur=sigma=1.150:steps=1,setsar=1,fps=30,format=yuv420p[v]",
+      "applied_effects": [
+        {
+          "scene_number": 1,
+          "kind": "video",
+          "motion_type": "zoom_blur",
+          "motion_type_source": "effect_key",
+          "motion_type_known": true,
+          "motion_type_unknown_value": null,
+          "zoom_intensity_received": null,
+          "zoom_intensity_applied": 0.07,
+          "zoom_intensity_source": "aspect_default",
+          "zoom_intensity_clamped": false,
+          "aspect_ratio": "9:16",
+          "aspect_default_applied": 0.07,
+          "focal_point_x": 0.5,
+          "focal_point_y": 0.5,
+          "focal_point_source": "default",
+          "easing": "linear",
+          "easing_source": "default",
+          "motion_preset": null,
+          "motion_preset_resolved": false,
+          "pan_direction": null,
+          "pan_amplitude_clamped": false,
+          "color_grade_preset": null,
+          "grade_filter_applied": false,
+          "grade_filter_chain": null,
+          "zoom_start": 1,
+          "zoom_end": 1,
+          "applied_effect": "zoom_blur",
+          "filter_chain": "[0:v]scale=520:924:force_original_aspect_ratio=increase,crop=480:854:x=max(0\\,min(in_w-out_w\\,(in_w-out_w)/2+sin(t*2.1)*10)):y=max(0\\,min(in_h-out_h\\,(in_h-out_h)*0.2000+cos(t*2.1)*6)),gblur=sigma=1.150:steps=1,setsar=1,fps=30,format=yuv420p[v]"
+        }
+      ]
+    },
+    {
+      "option_key": "ken_burns",
+      "video": "1030-ken_burns.mp4",
+      "poster": "1030-ken_burns.webp",
+      "video_sha256": "96b304f1bafe7baa5f294c8abb5b7a6fb2e86bfe41b5e958eca5753d55db3e8e",
+      "poster_sha256": "7612184816796189cb5faad539f1af5a5e220940fc49287beb8f25856a4b2093",
+      "video_bytes": 116982,
+      "duration_seconds": 5,
+      "source": "production_effect_chain_on_synthetic_sample",
+      "source_kind": "synthetic_grid_still",
+      "audio": false,
+      "plan_tier": "cinematic",
+      "builder": "services/vidra-render/src/motion.ts#buildMotionChain",
+      "filter": "[0:v]scale=1920:3416:force_original_aspect_ratio=increase,crop=1920:3416:x=(in_w-out_w)/2:y=(in_h-out_h)*0.2000,setsar=1,zoompan=z='min(1+0.070000*(on/149)\\,1.070000)':x='max(0\\,min(iw-iw/zoom\\,iw*(0.5*(1-(on/149))+0.5000*(on/149))-iw/zoom/2))':y='max(0\\,min(ih-ih/zoom\\,ih*(0.5*(1-(on/149))+0.5000*(on/149))-ih/zoom/2))':d=150:s=480x854:fps=30,format=yuv420p[v]",
+      "applied_effects": [
+        {
+          "scene_number": 1,
+          "kind": "image",
+          "motion_type": "ken_burns",
+          "motion_type_source": "effect_key",
+          "motion_type_known": true,
+          "motion_type_unknown_value": null,
+          "zoom_intensity_received": null,
+          "zoom_intensity_applied": 0.07,
+          "zoom_intensity_source": "aspect_default",
+          "zoom_intensity_clamped": false,
+          "aspect_ratio": "9:16",
+          "aspect_default_applied": 0.07,
+          "focal_point_x": 0.5,
+          "focal_point_y": 0.5,
+          "focal_point_source": "default",
+          "easing": "linear",
+          "easing_source": "default",
+          "motion_preset": null,
+          "motion_preset_resolved": false,
+          "pan_direction": null,
+          "pan_amplitude_clamped": false,
+          "color_grade_preset": null,
+          "grade_filter_applied": false,
+          "grade_filter_chain": null,
+          "zoom_start": 1,
+          "zoom_end": 1.07,
+          "applied_effect": "ken_burns",
+          "filter_chain": "[0:v]scale=1920:3416:force_original_aspect_ratio=increase,crop=1920:3416:x=(in_w-out_w)/2:y=(in_h-out_h)*0.2000,setsar=1,zoompan=z='min(1+0.070000*(on/149)\\,1.070000)':x='max(0\\,min(iw-iw/zoom\\,iw*(0.5*(1-(on/149))+0.5000*(on/149))-iw/zoom/2))':y='max(0\\,min(ih-ih/zoom\\,ih*(0.5*(1-(on/149))+0.5000*(on/149))-ih/zoom/2))':d=150:s=480x854:fps=30,format=yuv420p[v]"
+        }
+      ]
+    },
+    {
+      "option_key": "stabilisation",
+      "video": "1020-stabilisation.mp4",
+      "poster": "1020-stabilisation.webp",
+      "video_sha256": "9507de4d5902edb16cb56a1ac51a5dacb5dbaa5d14bdad2e75eba4d78ac99cc7",
+      "poster_sha256": "f1bf4d89db84980ee3ec48f9f45a19c6bd8bcd034b6fc9315aa3a34fadf36cef",
+      "video_bytes": 13864,
+      "duration_seconds": 5,
+      "source": "production_effect_chain_on_synthetic_sample",
+      "source_kind": "synthetic_moving_grid",
+      "audio": false,
+      "plan_tier": "cinematic",
+      "builder": "services/vidra-render/src/motion.ts#buildMotionChain",
+      "filter": "[0:v]scale=480:854:force_original_aspect_ratio=increase,crop=480:854:x=(in_w-out_w)/2:y=(in_h-out_h)*0.2000,deshake=x=8:y=8:w=464:h=838:rx=16:ry=16,setsar=1,fps=30,format=yuv420p[v]",
+      "applied_effects": [
+        {
+          "scene_number": 1,
+          "kind": "video",
+          "motion_type": "stabilisation",
+          "motion_type_source": "effect_key",
+          "motion_type_known": true,
+          "motion_type_unknown_value": null,
+          "zoom_intensity_received": null,
+          "zoom_intensity_applied": 0.07,
+          "zoom_intensity_source": "aspect_default",
+          "zoom_intensity_clamped": false,
+          "aspect_ratio": "9:16",
+          "aspect_default_applied": 0.07,
+          "focal_point_x": 0.5,
+          "focal_point_y": 0.5,
+          "focal_point_source": "default",
+          "easing": "linear",
+          "easing_source": "default",
+          "motion_preset": null,
+          "motion_preset_resolved": false,
+          "pan_direction": null,
+          "pan_amplitude_clamped": false,
+          "color_grade_preset": null,
+          "grade_filter_applied": false,
+          "grade_filter_chain": null,
+          "zoom_start": 1,
+          "zoom_end": 1,
+          "applied_effect": "stabilisation",
+          "filter_chain": "[0:v]scale=480:854:force_original_aspect_ratio=increase,crop=480:854:x=(in_w-out_w)/2:y=(in_h-out_h)*0.2000,deshake=x=8:y=8:w=464:h=838:rx=16:ry=16,setsar=1,fps=30,format=yuv420p[v]"
+        }
+      ]
     }
   ],
   "not_rendered": [
-    {
-      "option_key": "ken_burns",
-      "reason": "builder_returned_no_filter_for_single_footage_scene",
-      "externally_handled": [
-        {
-          "effect_key": "ken_burns",
-          "reason": "executed_by_motion_stage"
-        }
-      ],
-      "skipped": []
-    },
     {
       "option_key": "depth_parallax",
       "reason": "builder_returned_no_filter_for_single_footage_scene",
@@ -728,17 +952,6 @@
       ]
     },
     {
-      "option_key": "camera_shake",
-      "reason": "builder_returned_no_filter_for_single_footage_scene",
-      "externally_handled": [],
-      "skipped": [
-        {
-          "effect_key": "camera_shake",
-          "reason": "unsupported"
-        }
-      ]
-    },
-    {
       "option_key": "speed_ramp",
       "reason": "builder_returned_no_filter_for_single_footage_scene",
       "externally_handled": [],
@@ -750,45 +963,12 @@
       ]
     },
     {
-      "option_key": "zoom_blur",
-      "reason": "builder_returned_no_filter_for_single_footage_scene",
-      "externally_handled": [],
-      "skipped": [
-        {
-          "effect_key": "zoom_blur",
-          "reason": "unsupported"
-        }
-      ]
-    },
-    {
-      "option_key": "freeze_frame",
-      "reason": "builder_returned_no_filter_for_single_footage_scene",
-      "externally_handled": [],
-      "skipped": [
-        {
-          "effect_key": "freeze_frame",
-          "reason": "unsupported"
-        }
-      ]
-    },
-    {
       "option_key": "reverse_boomerang",
       "reason": "builder_returned_no_filter_for_single_footage_scene",
       "externally_handled": [],
       "skipped": [
         {
           "effect_key": "reverse_boomerang",
-          "reason": "unsupported"
-        }
-      ]
-    },
-    {
-      "option_key": "stabilisation",
-      "reason": "builder_returned_no_filter_for_single_footage_scene",
-      "externally_handled": [],
-      "skipped": [
-        {
-          "effect_key": "stabilisation",
           "reason": "unsupported"
         }
       ]
